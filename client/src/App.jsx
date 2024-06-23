@@ -5,12 +5,14 @@ import SignIn from "./Pages/SignIn"
 import SignUp from "./Pages/SignUp"
 import About from "./Pages/About"
 import Projects from "./Pages/Projects"
+import Heder from "./Components/Heder"
 
 
 
 export default function App() {
   return (
     <BrowserRouter>
+      <Heder />
       <Routes>
          <Route path="/" element={<Home />} />
          <Route path="/About" element={<About />} />
