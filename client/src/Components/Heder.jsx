@@ -6,11 +6,10 @@ import {FaSearch} from 'react-icons/fa'
 export default function Heder() {
   const path = useLocation().pathname;
   return (
-    <div className="bg-slate-950 w-full h-screen">
-    
+       
     <Navbar fixed="top" className='border-b-2 bg-slate-600 ' >
-      <Link to="/" className='self-center whitespace-nowrap text sm:text-3xl font-boald ' >        
-      <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>Uni</span>
+      <Link to="/" className='self-center whitespace-nowrap text sm:text-3xl font-bold ' >        
+      <span className='px-2 py-1 bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-600 rounded-lg text-white'>Uni</span>
       <span className='text-white font-boald'>Blog</span>
       </Link>
        
@@ -35,6 +34,5 @@ export default function Heder() {
           </Link>        
       </div>              
      </Navbar>
-    </div>
   )
 }
