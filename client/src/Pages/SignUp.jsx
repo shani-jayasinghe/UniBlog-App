@@ -51,7 +51,7 @@ export default function SignUp() {
           
           <p className='text-white text-sm mt-5 text-slate-400'>
           You can SignUp with your E-mail and password or with Google.
-          If you're new to our system, please [sign up] to join 
+          If you're alrady use the system, please [Sign In] to join 
           our community of thinkers, writers, and innovators. 
           Together, we can inspire, inform, and make a 
           difference. Happy blogging..!          
