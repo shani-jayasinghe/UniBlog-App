@@ -26,11 +26,9 @@ export default function Heder() {
             <Link to='/About'> <li className='hidden sm:inline text-slate-300 hover:underline hover:text-white text sm:text-xl'>About</li></Link>
             <Link to='/Projects'><li className='hidden sm:inline text-slate-300 hover:underline hover:text-white text sm:text-xl'>Projects</li></Link>
           </ul>          
-
+          
           <Link to='/SignIn'>
-            <Button className='px-1 h-8 bg-gradient-to-r from-blue-700 via-black-300 to-teal-400 rounded-lg text-black'> 
-              Sign In 
-            </Button>
+          <button className="bg-transparent border-2 border-blue-500 text-blue-500 px-3 py-1 rounded-full hover:bg-blue-500 hover:text-white transition duration-300">Sign In</button>
           </Link>        
       </div>              
      </Navbar>
